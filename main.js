@@ -18,7 +18,7 @@ function calculateDays() {
     let msPerDay = 24 * 60 * 60 * 1000;
     let totalDays = (today - bDay) / msPerDay;
     totalDays = Math.round(totalDays);
-    message.textContent = `A total of ${totalDays} has passed since your DOB`
+    message.textContent = `A total of ${totalDays} days has passed since your DOB`
     
     // below was left for reference
     console.log(totalDays);

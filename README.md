@@ -33,5 +33,8 @@ I borrowed the above from MDN.
 ## Further improvements 
 - I need an if then statement in case the Go button is pressed without a date being put in. 
 - Workaround for safari browser. I am not sure how to emulate this issue but it is [documented on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#handling_browser_support) with a possible work around.
+- If it is your birthday then say happy birthday
+- If you put a future date in then say "welcome from the future"
+- If you put in a date greater than 100 years add "Are you sure you are that old?"
 
 

@@ -23,9 +23,9 @@ body {
   flex-direction: column;
   width: 90%;
   height: 50vh;
-  min-width: 400px;
-  max-width: 400px;
-  min-height: 300px;
+  min-width: 95vh;
+  max-width: 100vh;
+  min-height: 95vh;
   margin: 0 auto;
   align-items: center;
   text-align: center;
@@ -43,10 +43,10 @@ button,
 input {
     font-family: inherit;
     letter-spacing: inherit;
-    max-width: 55%;
+    max-width: 60%;
     border: none;
     margin: 1em;
-    padding: 0.5em 2em;
+    padding: 0.8em 2em;
     border-radius: 5px;
 }
 
@@ -66,3 +66,8 @@ h1 {
 
 }
 
+label,
+button,
+input {
+    font-size: 2rem;
+}
