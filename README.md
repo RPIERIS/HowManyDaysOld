@@ -14,12 +14,12 @@ I am using this opportunity to learn more about creating a github repo and well 
 
 ## issues 
 
-- There was no class set on the button element so I had to use [getElementByTagName](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName). This however led to another issue which was that unlike eventSelector it got a HTML Collection which is like an array. In this case I had to return the first item on the array which is for the variable so I could add an event listener to it. I always could have added the class via Javascript 🤔
+- There was no class set on the button element so I had to use [getElementByTagName](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName). This however led to another issue which was that unlike eventSelector its got a HTML Collection which is like an array. In this case I had to return the first item on the array which is for the variable so I could add an event listener to it. I always could have added the class via Javascript 🤔
 ```
 let calcBtn = document.getElementsByTagName('button')
 calcBtn[0].addEventListener('click', calculateDays);
 ```
-- Figuring out a formula for calculating days. I was initially thinking of creating a loop that would go through the number of days each year then calculate but the [Numbers and dates] on MDN said that  
+- Figuring out a formula for calculating days. I was initially thinking of creating a loop that would go through the number of days each year then calculate but the [Numbers and dates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#date_object) on MDN said that  
 
     > JavaScript handles dates similarly to Java. The two languages have many of the same date methods, and both languages store dates as the number of milliseconds since January 1, 1970, 00:00:00, with a Unix Timestamp being the number of seconds since January 1, 1970, 00:00:00.
 
@@ -27,7 +27,8 @@ Combining this with the way to calculate the number of milliseconds in a day, sh
 ```
     let msPerDay = 24 * 60 * 60 * 1000;
 ```
-- Movement of the boxes with the addition of the new Div with the total days since the DOB. I found this article on CSS-Tricks on [Content Jumping (and How to avoid it)](https://css-tricks.com/content-jumping-avoid/). It really didnt answer my question. The issue for me was that when I added the text the other elements would shift. To avoid this I just needed to add a height to the element when it was initially being rendered.
+I borrowed the above from MDN.
+- Movement of the elements with the addition of the new Div that contained the total days since the DOB. I found this article on CSS-Tricks on [Content Jumping (and How to avoid it)](https://css-tricks.com/content-jumping-avoid/). It really didnt answer my question. The issue for me was that when I added the text the other elements would shift. I was thinking in absolute terms and had to shift my mind to a more relative form. To avoid this I just needed to add a height to the element when it was initially being rendered. This element was placed in the initial load, outside the function, so that it was rendered at the start and not when the function was run.
 
 ## Further improvements 
 - I need an if then statement in case the Go button is pressed without a date being put in. 
