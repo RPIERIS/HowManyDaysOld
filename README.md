@@ -36,5 +36,6 @@ I borrowed the above from MDN.
 - If it is your birthday then say happy birthday
 - If you put a future date in then say "welcome from the future"
 - If you put in a date greater than 100 years add "Are you sure you are that old?"
+- Making the text more mobile friendly
 
 
