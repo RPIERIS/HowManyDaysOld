@@ -1,6 +1,10 @@
 # How many days old?
 
-This was the [scrimba challenge](https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-how-many-days-old-latest-challenge-cE2gBNC2) on the fourth week of April 2021. The aim of the task was to calculate the number of days from the date of birth to the present date. The HTML and the CSS was provided so all the work was to be put into Javascript.
+This was the [scrimba challenge](https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-how-many-days-old-latest-challenge-cE2gBNC2) on the fourth week of April 2021. 
+
+You can see my solution on [Scrimba](https://scrimba.com/scrim/c9aEnLc8). Scrims are like a GUI where you can see your code as the solution on the browser. I am using [Scrimba](https://scrimba.com) with [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn) on my path to be a front end web dev.
+
+The aim of the task was to calculate the number of days from the date of birth to the present date. The HTML and the CSS was provided so all the work was to be put into Javascript.
 
 I am using this opportunity to learn more about creating a github repo and well as learning and using Markdown to explain the challenge and my solution.
 
